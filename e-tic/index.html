@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>E Ticaret</title>
+</head>
+<body>
+
+    <div class="container text-muted">
+        <div class=" d-flex justify-content-md-between flex-column flex-md-row align-items-center">
+            <div class="d-flex flex-md-row flex-colu, align-items-center">
+                <div class="">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="ms-1">
+                    555-555-55-55
+                </div>
+                <div class="ms-5">
+                    Toplu alımlar için iletişime geçiniz.
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                      Turkish
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">French</a></li>
+                      <li><a class="dropdown-item" href="#">German</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown ms-1">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                      TL
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">USD</a></li>
+                      <li><a class="dropdown-item" href="#">EURO</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img height="30px" src="img/enk.logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto text-uppercase mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ürünler
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Şirketlere Özel Eğitimler</a></li>
+                  <li><a class="dropdown-item" href="#">Özel Ders</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Video Eğitimler</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <div class=" mx-2">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-search"></i>
+                      </button>
+                      <div class="modal fade" id="exampleModal">
+                        <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-8">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Eğitim Ara">
+                                            <button class="input-group-text">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="mx-2">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="mx-2">
+                    <div class="btn-group dropstart">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-shopping-basket"></i>
+                            <small class="position-absolute translate-middle bg-primary rounded-circle border border-light text-white px-2">2</small>
+                          </button>
+                          <ul class="dropdown-menu courseCard">
+                            <li><a class="dropdown-item">
+                               <div class="row text-center text-md-start">
+                                <div class="col-md-5">
+                                    <img src="img/img1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-md-7">
+                                    <p class="small fw-bolder mb-0">
+                                        Angular Eğitimi
+                                    </p>
+                                    <p class="small text-muted mb-0">
+                                        Adet: 1
+                                    </p>
+                                    <p class="small fw-bolder mb-0">
+                                        69 TL
+                                    </p>
+                                </div>
+                               </div>
+                            </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item">
+                                <div class="row text-center text-md-start">
+                                 <div class="col-md-5">
+                                     <img src="img/img2.jpg" class="img-fluid">
+                                 </div>
+                                 <div class="col-md-7">
+                                     <p class="small fw-bolder mb-0">
+                                         Bootstrap 5 Eğitimi
+                                     </p>
+                                     <p class="small text-muted mb-0">
+                                         Adet: 2
+                                     </p>
+                                     <p class="small fw-bolder mb-0">
+                                         138 TL
+                                     </p>
+                                 </div>
+                                </div>
+                             </a></li>
+                             <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item d-flex justify-content-between flex-column flex-md-row align-items-center">
+                                <p class="lead text-uppercase text-muted mb-0">Toplam Tutar</p>
+                                <p class="fw-bolder mb-0">207 TL</p>
+                             </a></li>
+                             <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><div class="dropdown-item d-flex justify-content-between align-items-center flex-column flex-md-row">
+                                <a class="fs-6 text-uppercase text-muted mb-4 mb-md-0">Sepete Git</a>
+                                <div class="">
+                                    <a href="" class="btn btn-outline-dark rounded-0 px-5">Ödemeyi Tamamla</a>
+                                </div>
+                            </div></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img5.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img6.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img1.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Angular Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img2.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Bootstrap 5 Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img5.jpg" alt="">
+                    <div class="card-body">
+                        <h5>C Programlama Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img8.jpg" alt="">
+                    <div class="card-body">
+                        <h5>C# Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img5.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Komple Web Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img6.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Rxjs Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img2.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Sql Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow mb-2 mb-sm-0">
+                    <img src="img/img1.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Vue Js Eğitimi</h5>
+                        <p class="card-text">69 TL</p>
+                        <a href="" class="btn btn-success rounded-0 w-100"> Satın Al</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="whyus" class="mt-4">
+        <div class="container text-center">
+            <div class="shadow-lg pt-5">
+                <div class="row mb-0 mb-md-4 p-4">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fas fa-cart-plus text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fab fa-shopify text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fab fa-cc-paypal text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                </div>
+                <div class="row p-4 mb-0 mb-md-4">
+                    <div class="col-md-4 mb-4 mb-md-0 ">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fas fa-user-graduate text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 ">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fas fa-university text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 ">
+                        <span class="shadow bg-white p-4 rounded-circle"><i class="fas fa-trophy text-danger"></i></span>
+                        <h3 class="mt-5">Niçin Yazılım Öğrenmeliyim?</h3>
+                        <p class="text-muted">Lokasyon bağımsız dünyanın her yerinde çalışma imkanı</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary text-white text-center my-5">
+        <div class="container">
+            <div class="row py-5 align-items-center">
+                <div class="col-md-6">
+                    <h1 class="fs-1 fw-light">Angular Eğitimi Alana</h1>
+                    <h1 class="display-1 fw-bolder my-3">Dilediğin Eğitim Hediye</h1>
+                    <small>İstediğiniz eğitim için Udemy üzerinden mesaj gönderebilirsiniz</small>
+                    <br>
+                    <a href="" class="btn btn-lg btn-outline-light mt-5 px-3 py-2 rounded-0">Satın Al</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/img1.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="display-1 fw-bold">Benimle İletişime Geçin.</h1>
+            </div>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom01" class="form-label">Ad</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Başarılı!
+                  </div>
+                  <div class="invalid-feedback">
+                    Lütfen adınızı giriniz.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom02" class="form-label">Soyad</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Başarılı!
+                  </div>
+                  <div class="invalid-feedback">
+                    Lütfen soyadınızı giriniz.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustomUsername" class="form-label">Kullanıcı Adı</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control"required>
+                    <div class="valid-feedback">
+                        Başarılı!
+                      </div>
+                    <div class="invalid-feedback">
+                      Lütfen kullanıcı adınızı giriniz.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom03" class="form-label">Adres(Mahalle,Sokak,No)</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Başarılı!
+                  </div>
+                <div class="invalid-feedback">
+                  Lütfen adres giriniz.
+                </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label class="form-label">Şehir</label>
+                  <select class="form-select" required>
+                    <option selected disabled value="">Lütfen Seçiniz</option>
+                    <option value="ist">İstanbul</option>
+                    <option value="ank">Ankara</option>
+                    <option value="izm">İzmir</option>
+                  </select>
+                  <div class="valid-feedback">
+                    Başarılı!
+                  </div>
+                <div class="invalid-feedback">
+                  Lütfen şehir seçiniz.
+                </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom05" class="form-label">Posta Kodu</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Başarılı!
+                  </div>
+                <div class="invalid-feedback">
+                  Lütfen posta kodu giriniz.
+                </div>
+                </div>
+                <div class="col-12 my-3">
+                  <button class="btn btn-success w-100" type="submit">Gönder</button>
+                </div>
+              </form>
+        </div>
+    </section>
+    
+    <section class="bg-light pt-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4">
+                    <p class="fs-5">New Developer Eğitimleri</p>
+                    <small class="text-muted">Yeni Nesil Eğitimler</small>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-5">Web Geliştirme Eğitimleri</p>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-muted small" href="">Komple Web</a></li>
+                        <li><a class="text-decoration-none text-muted small" href="">Frontend</a></li>
+                        <li><a class="text-decoration-none text-muted small" href="">Angular</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-5">Programlama Eğitimleri</p>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-muted small" href="">C Programlama</a></li>
+                        <li><a class="text-decoration-none text-muted small" href="">C# Programlama</a></li>
+                        <li><a class="text-decoration-none text-muted small" href="">Yazılımcı Olma Kursu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-secondary">
+        <p class="lead text-center text-white py-3">Tüm Hakları Saklıdır | <span>New Developer</span></p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        (() => {
+  'use strict'
+  const forms = document.querySelectorAll('.needs-validation')
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+</body>
+</html>
